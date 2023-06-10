@@ -20,3 +20,4 @@ async function instalarDependencia(dependencia) {
     console.error(`Ocorreu um erro ao instalar a dependência '${dependencia}':`, error);
   }
 }
+  await verificarDependencia(dependencia);
