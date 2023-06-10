@@ -1,4 +1,5 @@
 const execa = require('execa');
+const dependencia = '#dependencia_aqui' ;
 
 async function verificarDependencia(dependencia) {
   try {
@@ -19,5 +20,3 @@ async function instalarDependencia(dependencia) {
     console.error(`Ocorreu um erro ao instalar a dependência '${dependencia}':`, error);
   }
 }
-
-const dependencia = '#dependencia_aqui' ;
