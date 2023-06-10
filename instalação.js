@@ -1,5 +1,5 @@
 const execa = require('execa');
-const dependencia = '#dependencia_aqui' ;
+const dependencia = '#dependencia_aqui';
 
 async function verificarDependencia(dependencia) {
   try {
