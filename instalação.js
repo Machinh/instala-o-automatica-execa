@@ -20,4 +20,4 @@ async function instalarDependencia(dependencia) {
   }
 }
 
-const dependencia = "#dependencia_aqui";
+const dependencia = '#dependencia_aqui' ;
